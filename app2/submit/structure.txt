@@ -1,0 +1,37 @@
+ai-assistant/
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── ChatInterface/
+│   │   │   ├── VoiceInput/
+│   │   │   ├── Settings/
+│   │   │   └── TaskAutomation/
+│   │   ├── contexts/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   └── index.js
+├── mobile/
+│   ├── src/
+│   │   ├── navigation/
+│   │   ├── screens/
+│   │   ├── utils/
+│   │   └── App.js
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── services/
+│   ├── utils/
+│   ├── tests/
+│   └── server.js
+├── functions/
+│   ├── src/
+│   │   ├── integrations/
+│   │   └── index.js
+├── .env
+├── docker-compose.yml
+└── package.json
